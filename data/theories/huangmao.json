@@ -1,0 +1,35 @@
+{
+  "id": "huangmao",
+  "name": "��ë����",
+  "aliases": [
+    "��ë"
+  ],
+  "status": "tracked",
+  "summary": "�漰���ұ������ѹ�����ж���ʽ�����绰������о����ֶ���汾����Դ�봴ʼ������δ�ڱ�����������ʵ��",
+  "source_ids": [
+    "huangmao-reading",
+    "sun-huang-bo-yi",
+    "sun-alan-interview"
+  ],
+  "claims": [
+    {
+      "text": "����ë�����Ķ��ʼǡ������糤���������汾������������ͷֿ�����Ϊ���ܾݴ�ȷ��Ψһ��ʼ�ˡ�",
+      "source_ids": [
+        "huangmao-reading"
+      ],
+      "attribution": "secondary_summary"
+    },
+    {
+      "text": "�ñʼǼ�¼�������������ǿ�ϰ�õȷ��磻�鵵ʱӦ�ֱ𱣴�汾��",
+      "source_ids": [
+        "huangmao-reading"
+      ],
+      "attribution": "secondary_summary"
+    }
+  ],
+  "open_questions": [
+    "��һ�˶��ʼ����õ�ԭ��������ֱ������ʵʱ���ߡ�",
+    "���ֻ�ë�������ë�������ƣ������������ȳ����ƶ������״���"
+  ],
+  "updated_at": "2026-10-13"
+}

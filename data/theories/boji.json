@@ -1,0 +1,37 @@
+{
+  "id": "boji",
+  "name": "��������",
+  "aliases": [
+    "����",
+    "�������ֲ�"
+  ],
+  "status": "tracked",
+  "summary": "�Ա���Ϊ���Ƶ����ġ����ɼ����˽��軰���ǰ�ɺ˶�������Ҫ�Ƕ���������ԭ������Ƶ�����Դ����䡣",
+  "source_ids": [
+    "boji-video",
+    "sun-huang-bo-yi",
+    "shao-alan-os",
+    "sun-alan-interview"
+  ],
+  "claims": [
+    {
+      "text": "����Ʊ����ۡ��ѱ�������Ϊ���������������ӽǣ����Ǹ���Ŀ�ĸ�����",
+      "source_ids": [
+        "sun-huang-bo-yi"
+      ],
+      "attribution": "secondary_summary"
+    },
+    {
+      "text": "���۰��ײ���ϵͳ����һ������������Ϊ���������������ܣ�����ԭ���߱������֡�",
+      "source_ids": [
+        "shao-alan-os"
+      ],
+      "attribution": "secondary_summary"
+    }
+  ],
+  "open_questions": [
+    "�˶��۰���ԭʼ��Ƶ�ͺ������£������ɿ�����ʱ�䡣",
+    "����ԭʼ���Ļ�����ֲ�������������ߵ�������ܡ�"
+  ],
+  "updated_at": "2026-10-13"
+}
