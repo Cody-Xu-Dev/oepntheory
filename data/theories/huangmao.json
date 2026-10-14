@@ -1,35 +1,45 @@
 {
   "id": "huangmao",
-  "name": "��ë����",
+  "name": "黄毛理论",
   "aliases": [
-    "��ë"
+    "黄毛"
   ],
   "status": "tracked",
-  "summary": "�漰���ұ������ѹ�����ж���ʽ�����绰������о����ֶ���汾����Դ�봴ʼ������δ�ڱ�����������ʵ��",
+  "summary": "涉及自我表达、评价压力和行动方式的网络话语。二次研究呈现多个版本，起源与创始归属尚未在本档案独立核实。",
   "source_ids": [
     "huangmao-reading",
     "sun-huang-bo-yi",
-    "sun-alan-interview"
+    "sun-alan-interview",
+    "huxiu-xiexiu-20261013",
+    "buildbeyond-sunxue-20261009",
+    "bidclub-sun-alan-20261009"
   ],
   "claims": [
     {
-      "text": "����ë�����Ķ��ʼǡ������糤���������汾������������ͷֿ�����Ϊ���ܾݴ�ȷ��Ψһ��ʼ�ˡ�",
+      "text": "《黄毛理论阅读笔记》将较早长帖、社区版本和孙宇晨后续解释分开，认为不能据此确定唯一创始人。",
       "source_ids": [
         "huangmao-reading"
       ],
       "attribution": "secondary_summary"
     },
     {
-      "text": "�ñʼǼ�¼�������������ǿ�ϰ�õȷ��磻�鵵ʱӦ�ֱ𱣴�汾��",
+      "text": "该笔记记录了特质天生还是可习得等分歧；归档时应分别保存版本。",
       "source_ids": [
         "huangmao-reading"
+      ],
+      "attribution": "secondary_summary"
+    },
+    {
+      "text": "Preston 将黄毛思维解释为在关系中保持个人生活与边界；这是评论者的解释，不能替代较早来源的不同版本。",
+      "source_ids": [
+        "huxiu-xiexiu-20261013"
       ],
       "attribution": "secondary_summary"
     }
   ],
   "open_questions": [
-    "��һ�˶��ʼ����õ�ԭ��������ֱ������ʵʱ���ߡ�",
-    "���ֻ�ë�������ë�������ƣ������������ȳ����ƶ������״���"
+    "逐一核读笔记引用的原帖和完整直播，核实时间线。",
+    "区分黄毛形象与黄毛理论名称，不能由形象先出现推断理论首创。"
   ],
-  "updated_at": "2026-10-13"
+  "updated_at": "2026-10-14"
 }

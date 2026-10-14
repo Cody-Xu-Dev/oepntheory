@@ -1,0 +1,156 @@
+{
+  "id": "daily-20261014-090032",
+  "date": "2026-10-14",
+  "started_at": "2026-10-14T09:00:32+08:00",
+  "completed_at": "2026-10-14T09:06:00+08:00",
+  "status": "partial",
+  "coverage_from": "2026-10-07T09:00:32+08:00",
+  "coverage_to": "2026-10-14T09:00:32+08:00",
+  "checks": [
+    {
+      "query": "\"薄肌理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"邵艾伦\" \"薄肌\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "site:github.com \"薄肌\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"大水理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"大水理论\" \"长安二球\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "site:github.com \"大水理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"黄毛理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"黄毛理论\" \"徐可\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"黄毛理论\" \"孙宇晨\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"孙学\" \"孙宇晨\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"孙宇晨\" \"邵艾伦\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "site:github.com \"孙学\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"薄肌\" \"新理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"大水\" \"理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"互联网\" \"理论\" \"版本答案\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"大睡理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "\"小水理论\"",
+      "outcome": "ok",
+      "note": "已执行近七日公开搜索；搜索仍返回部分更早或无关结果，按页面日期筛选；仅核读来源支持摘要。"
+    },
+    {
+      "query": "https://www.bilibili.com/video/BV1Bw4S6uE1V/",
+      "outcome": "failed",
+      "note": "重新打开返回 412，正文仍不可访问。"
+    },
+    {
+      "query": "https://www.bilibili.com/video/BV1a9p36LEKD/",
+      "outcome": "failed",
+      "note": "重新打开返回 412，正文仍不可访问。"
+    },
+    {
+      "query": "https://github.com/jamesxxx-ai/sun-huang-bo-yi/blob/main/references/research/%E4%B8%93%E9%A2%98/03-%E9%BB%84%E6%AF%9B.md",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://github.com/XiaoSiKe/shao-alan-operating-system",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://github.com/LeoLee0812/sunyuchen-alan-interview",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://github.com/jamesxxx-ai/sun-huang-bo-yi",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://github.com/swaylq/sunge-skill",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://github.com/wuxie888/sunxue-skill",
+      "outcome": "ok",
+      "note": "已重新打开核读相关部分，未确认相对首批归档有实质修改，不制造重复版本。"
+    },
+    {
+      "query": "https://theoryera.com/",
+      "outcome": "failed",
+      "note": "直接读取只有占位内容，未取得百科正文。"
+    }
+  ],
+  "failures": [
+    "两个既有 B 站视频正文仍返回 412，原始观点未能核读。",
+    "TheoryEra 站点正文只返回占位，内容待核实。",
+    "公开搜索索引不能覆盖全部平台，转录尚未对照原视频；本次不建立 complete 水位。"
+  ],
+  "event_ids": [
+    "correction-20261014-encoding",
+    "source-20261014-boji",
+    "source-20261014-dashui",
+    "source-20261014-huangmao",
+    "source-20261014-sunxue",
+    "candidate-20261014-xiaoshui",
+    "candidate-20261014-dashui-sleep",
+    "candidate-20261014-dabei"
+  ]
+}

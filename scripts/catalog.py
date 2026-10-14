@@ -106,48 +106,48 @@ def render(data):
     theories, sources, events, runs = (data[k] for k in ("theories", "sources", "events", "runs"))
     out = {}
     source_link = lambda s: f"[{line(sources[s]['title'])}]({sources[s]['url']})"
-    theory_index = ["# ����Ŀ¼", "", "��ҳ�ɽṹ���������ɡ�", "", "| ���� | ״̬ | ������ |", "| --- | --- | --- |"]
+    theory_index = ["# 理论目录", "", "本页由结构化数据生成。", "", "| 名称 | 状态 | 更新日 |", "| --- | --- | --- |"]
     for theory_id, theory in sorted(theories.items()):
         theory_index.append(f"| [{line(theory['name'])}](../knowledge/{theory_id}.md) | {theory['status']} | {theory['updated_at']} |")
-        page = [f"# {theory['name']}", "", f"״̬��{theory['status']} �� ���£�{theory['updated_at']}", "", theory["summary"], "", "## �۵���汾", ""]
+        page = [f"# {theory['name']}", "", f"状态：{theory['status']} · 更新：{theory['updated_at']}", "", theory["summary"], "", "## 观点与版本", ""]
         if not theory["claims"]:
-            page.append("�����㹻�ɺ˶�֤��֧��ʵ�ʹ۵㣬��ǰ��������Դ������")
+            page.append("尚无足够可核读证据支持实质观点，当前仅保存来源线索。")
         for claim in theory["claims"]:
-            page.extend([f"- {claim['text']}��{claim['attribution']}��", "  ��Դ��" + "��".join(source_link(s) for s in claim["source_ids"])])
-        page.extend(["", "## ��Դ", ""])
+            page.extend([f"- {claim['text']}（{claim['attribution']}）", "  来源：" + "；".join(source_link(s) for s in claim["source_ids"])])
+        page.extend(["", "## 来源", ""])
         for s in theory["source_ids"]:
             source = sources[s]
-            page.extend([f"- {source_link(s)} �� {source['kind']} / {source['verification']}", f"  ���ƣ�{source['limitation']}"])
-        page.extend(["", "## ��������", ""] + ["- " + q for q in theory["open_questions"]])
-        page.extend(["", "## ������ʷ", ""])
+            page.extend([f"- {source_link(s)} · {source['kind']} / {source['verification']}", f"  限制：{source['limitation']}"])
+        page.extend(["", "## 待补资料", ""] + ["- " + q for q in theory["open_questions"]])
+        page.extend(["", "## 更新历史", ""])
         for event in sorted(events.values(), key=lambda e: (e["date"], e["id"]), reverse=True):
             if theory_id in event["theory_ids"]:
-                page.append(f"- [{event['date']}](../daily/{event['date'][:4]}/{event['date']}.md)��{event['summary']}")
+                page.append(f"- [{event['date']}](../daily/{event['date'][:4]}/{event['date']}.md)：{event['summary']}")
         out[f"knowledge/{theory_id}.md"] = "\n".join(page) + "\n"
     out["indexes/theories.md"] = "\n".join(theory_index) + "\n"
-    source_index = ["# ��Դ����", "", "״̬�����ܺ˶���ʲô���������۵���ȷ������ʱ��δ֪ʱ���²⡣", ""]
+    source_index = ["# 来源索引", "", "状态描述能核读到什么，不代表观点正确。发布时间未知时不猜测。", ""]
     for source_id, s in sorted(sources.items()):
-        source_index.extend([f"## {source_id}", "", source_link(source_id), "", f"���ߣ�{s['author'] or '����ʵ'} �� ���{s['kind']} �� �˶���{s['verification']}", f"����ʱ�䣺{s['published_at'] or 'δ֪'} �� �״η��֣�{s['discovered_at']}", "", s["summary"], "", "���ƣ�" + s["limitation"], ""])
+        source_index.extend([f"## {source_id}", "", source_link(source_id), "", f"作者：{s['author'] or '待核实'} · 类别：{s['kind']} · 核读：{s['verification']}", f"发布时间：{s['published_at'] or '未知'} · 首次发现：{s['discovered_at']}", "", s["summary"], "", "限制：" + s["limitation"], ""])
     out["indexes/sources.md"] = "\n".join(source_index) + "\n"
     candidates = [f"- [{t['name']}](../knowledge/{i}.md)" for i, t in sorted(theories.items()) if t["status"] == "candidate"]
-    out["indexes/candidates.md"] = "# �����ۺ�ѡ\n\n" + ("\n".join(candidates) if candidates else "�����ѵǼǺ�ѡ�����ֲ�ѯ�Ի�ÿ��ִ�С�") + "\n"
+    out["indexes/candidates.md"] = "# 新理论候选\n\n" + ("\n".join(candidates) if candidates else "暂无已登记候选；发现查询仍会每日执行。") + "\n"
     grouped = defaultdict(list)
     for run in runs.values():
         grouped[run["date"]].append(run)
-    days = ["# ÿ�ո���", "", "���������ڹ鵵����ʼ����¼�����������ɼ���", ""]
+    days = ["# 每日更新", "", "按发现日期归档；初始化记录不代表完整采集。", ""]
     for d in sorted(grouped, reverse=True):
         days.append(f"- [{d}]({d[:4]}/{d}.md)")
-        page = [f"# {d} ���۹۲�", "", "���ڲ��ñ���ʱ�䣻����ʱ����ԭʼ����ʱ��ֿ���¼��", ""]
+        page = [f"# {d} 理论观察", "", "日期采用北京时间；发现时间与原始发布时间分开记录。", ""]
         for run in sorted(grouped[d], key=lambda r: r["started_at"]):
-            page.extend([f"## {run['id']} �� {run['status']}", "", f"ִ�У�{run['started_at']} �� {run['completed_at']}", f"�������ڣ�{run['coverage_from']} �� {run['coverage_to']}", "", "### ���ݱ仯", ""])
+            page.extend([f"## {run['id']} · {run['status']}", "", f"执行：{run['started_at']} → {run['completed_at']}", f"检索窗口：{run['coverage_from']} → {run['coverage_to']}", "", "### 内容变化", ""])
             if not run["event_ids"]:
-                page.append("����δ�Ǽ��������������۷�Χ�����²�ѯ�����ʽ��Ϊ׼��")
+                page.append("本次未登记内容增量；结论范围以以下查询及访问结果为准。")
             for event_id in run["event_ids"]:
                 e = events[event_id]
-                page.extend([f"- **{e['type']}**��{e['summary']}", "  ��Դ��" + "��".join(source_link(s) for s in e["source_ids"])])
-            page.extend(["", "### ������¼", ""])
-            page.extend(f"- `{c['query']}` �� {c['outcome']}��{c['note']}" for c in run["checks"])
-            page.extend(["", "### ʧ���븲������", ""] + (["- " + f for f in run["failures"]] or ["���ѵǼ�ʧ�ܡ�ע�⣺�����������ܱ�֤����ȫ����"]) + [""])
+                page.extend([f"- **{e['type']}**：{e['summary']}", "  来源：" + "；".join(source_link(s) for s in e["source_ids"])])
+            page.extend(["", "### 检索记录", ""])
+            page.extend(f"- `{c['query']}` · {c['outcome']}：{c['note']}" for c in run["checks"])
+            page.extend(["", "### 失败与覆盖限制", ""] + (["- " + f for f in run["failures"]] or ["无已登记失败。注意：公开搜索不能保证覆盖全网。"]) + [""])
         out[f"daily/{d[:4]}/{d}.md"] = "\n".join(page) + "\n"
     out["daily/README.md"] = "\n".join(days) + "\n"
     return out

@@ -1,14 +1,14 @@
 {
   "id": "sunxue-skill",
   "url": "https://github.com/wuxie888/sunxue-skill",
-  "title": "��ѧ Skill���ԡ��ҵ�Ů�Ѿ���Ϊ����",
+  "title": "孙学 Skill：以《我的女友景甜》为中心",
   "author": "wuxie888",
   "kind": "secondary",
   "published_at": null,
   "discovered_at": "2026-10-13",
   "checked_at": "2026-10-13T15:59:55+08:00",
   "verification": "read",
-  "summary": "�òֿ��ԡ��ҵ�Ů�Ѿ��𡷼��������Ϊ�����֯��ѧ Skill��",
-  "limitation": "��ǰ���˶��ֿ���ܼ� README �пɷ��ʲ��֣���δ�˶���������Ʒԭ�ġ�",
+  "summary": "该仓库以《我的女友景甜》及相关叙事为起点组织孙学 Skill。",
+  "limitation": "当前仅核读仓库介绍及 README 中可访问部分；尚未核对所引用作品原文。",
   "supersedes": null
 }

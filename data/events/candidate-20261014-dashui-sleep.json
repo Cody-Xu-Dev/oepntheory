@@ -1,0 +1,14 @@
+{
+  "id": "candidate-20261014-dashui-sleep",
+  "date": "2026-10-14",
+  "type": "candidate_found",
+  "theory_ids": [
+    "dashui-sleep"
+  ],
+  "summary": "发现大睡理论的二次资料线索，列为候选，起源和独立定义仍待核读。",
+  "run_id": "daily-20261014-090032",
+  "source_ids": [
+    "dzplus-dashui-20261008",
+    "sohu-dashui-20261009"
+  ]
+}

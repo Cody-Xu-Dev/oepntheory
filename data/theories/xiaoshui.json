@@ -1,0 +1,24 @@
+{
+  "id": "xiaoshui",
+  "name": "小水理论",
+  "aliases": [],
+  "status": "candidate",
+  "summary": "二次评论中与大水对照的饮水话语，具体作者、原始定义和传播时间线待核读。",
+  "source_ids": [
+    "sohu-dashui-20261009"
+  ],
+  "claims": [
+    {
+      "text": "搜狐评论把小水描述为与大水对照的少量分次、干净饮水表达。",
+      "source_ids": [
+        "sohu-dashui-20261009"
+      ],
+      "attribution": "secondary_summary"
+    }
+  ],
+  "open_questions": [
+    "核读原作者的定义和发布时间。",
+    "确认是独立话语、已有主题别名还是短期玩梗。"
+  ],
+  "updated_at": "2026-10-14"
+}

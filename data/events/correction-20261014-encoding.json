@@ -1,0 +1,19 @@
+{
+  "id": "correction-20261014-encoding",
+  "date": "2026-10-14",
+  "type": "correction",
+  "theory_ids": [
+    "boji",
+    "dashui",
+    "huangmao",
+    "sunxue"
+  ],
+  "source_ids": [
+    "boji-video",
+    "dashui-video",
+    "huangmao-reading",
+    "sunge-skill"
+  ],
+  "summary": "仓库更名为 opentheory，修复初始化上传时的中文编码损坏；原始本地 UTF-8 内容恢复，旧 Git 提交保留审计历史。",
+  "run_id": "daily-20261014-090032"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "source-20261014-boji",
+  "date": "2026-10-14",
+  "type": "source_added",
+  "theory_ids": [
+    "boji"
+  ],
+  "source_ids": [
+    "huxiu-xiexiu-20261013",
+    "buildbeyond-sunxue-20261009",
+    "bidclub-sun-alan-20261009"
+  ],
+  "summary": "为薄肌理论补充可核读评论、报道或转录索引；均为今天新发现，不代表作者今天新发布。",
+  "run_id": "daily-20261014-090032"
+}

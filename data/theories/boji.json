@@ -1,37 +1,47 @@
 {
   "id": "boji",
-  "name": "��������",
+  "name": "薄肌理论",
   "aliases": [
-    "����",
-    "�������ֲ�"
+    "薄肌",
+    "薄肌俱乐部"
   ],
   "status": "tracked",
-  "summary": "�Ա���Ϊ���Ƶ����ġ����ɼ����˽��軰���ǰ�ɺ˶�������Ҫ�Ƕ���������ԭ������Ƶ�����Դ����䡣",
+  "summary": "以薄肌为名称的身材、自律及个人建设话语。当前可核读资料主要是二次整理，原作者视频正文仍待补充。",
   "source_ids": [
     "boji-video",
     "sun-huang-bo-yi",
     "shao-alan-os",
-    "sun-alan-interview"
+    "sun-alan-interview",
+    "huxiu-xiexiu-20261013",
+    "buildbeyond-sunxue-20261009",
+    "bidclub-sun-alan-20261009"
   ],
   "claims": [
     {
-      "text": "����Ʊ����ۡ��ѱ�������Ϊ���������������ӽǣ����Ǹ���Ŀ�ĸ�����",
+      "text": "《孙黄薄抑论》把薄肌整理为自律与吸引力的视角；这是该项目的概括。",
       "source_ids": [
         "sun-huang-bo-yi"
       ],
       "attribution": "secondary_summary"
     },
     {
-      "text": "���۰��ײ���ϵͳ����һ������������Ϊ���������������ܣ�����ԭ���߱������֡�",
+      "text": "《邵艾伦操作系统》进一步将薄肌延伸为身体以外的能力框架，须与原作者表达区分。",
       "source_ids": [
         "shao-alan-os"
+      ],
+      "attribution": "secondary_summary"
+    },
+    {
+      "text": "Preston 的评论把薄肌侧重点放在可长期执行的训练习惯，而不是只追求变瘦；这属于其评论版本。",
+      "source_ids": [
+        "huxiu-xiexiu-20261013"
       ],
       "attribution": "secondary_summary"
     }
   ],
   "open_questions": [
-    "�˶��۰���ԭʼ��Ƶ�ͺ������£������ɿ�����ʱ�䡣",
-    "����ԭʼ���Ļ�����ֲ�������������ߵ�������ܡ�"
+    "核读邵艾伦原始视频和后续更新，建立可靠发布时间。",
+    "区分原始身材话语、俱乐部规则与二次作者的能力框架。"
   ],
-  "updated_at": "2026-10-13"
+  "updated_at": "2026-10-14"
 }

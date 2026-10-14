@@ -1,0 +1,26 @@
+{
+  "id": "dashui-sleep",
+  "name": "大睡理论",
+  "aliases": [],
+  "status": "candidate",
+  "summary": "与大水、薄肌并列的睡眠话语候选，原作者与完整规则尚未确认。",
+  "source_ids": [
+    "dzplus-dashui-20261008",
+    "sohu-dashui-20261009"
+  ],
+  "claims": [
+    {
+      "text": "大众新闻把大睡、大水、薄肌并列为同类网络理论名称。",
+      "source_ids": [
+        "dzplus-dashui-20261008",
+        "sohu-dashui-20261009"
+      ],
+      "attribution": "secondary_summary"
+    }
+  ],
+  "open_questions": [
+    "核读原作者的定义和发布时间。",
+    "确认是独立话语、已有主题别名还是短期玩梗。"
+  ],
+  "updated_at": "2026-10-14"
+}

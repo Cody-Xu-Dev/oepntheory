@@ -1,14 +1,14 @@
 {
   "id": "sunge-skill",
   "url": "https://github.com/swaylq/sunge-skill",
-  "title": "���.skill��˼ά��д������߿��",
+  "title": "孙割.skill：思维、写作与决策框架",
   "author": "swaylq",
   "kind": "secondary",
   "published_at": null,
   "discovered_at": "2026-10-13",
   "checked_at": "2026-10-13T15:59:55+08:00",
   "verification": "read",
-  "summary": "��Ŀ������Ĺ�����������Ϊ����˼ά��д����񼰾��߿�ܣ�˵����ѧ���о����ˡ����Լ����߷�������Ϸ�ơ�",
-  "limitation": "�������������ģ�� Skill������������˷������������ף����߷���������Ϊ���ֿ⽨�顣",
+  "summary": "项目把孙宇晨的公开表达整理为人物思维、写作风格及决策框架；说明孙学是研究其人、其言及决策法的网络戏称。",
+  "limitation": "属于人物分析与模仿 Skill，不是孙宇晨本人发布的理论文献；决策范例不可视为本仓库建议。",
   "supersedes": null
 }

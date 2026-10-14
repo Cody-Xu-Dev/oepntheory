@@ -1,37 +1,46 @@
 {
   "id": "sunxue",
-  "name": "��ѧ",
+  "name": "孙学",
   "aliases": [
     "Sunology",
-    "����о�"
+    "孙哥研究"
   ],
   "status": "tracked",
-  "summary": "Χ���������������¼����߷�ʽ�γɵ����������������������ǰ��Դ�����о� Skill �����۰��׵ķ�̸���ָ�������",
+  "summary": "围绕孙宇晨公开表达、叙事及决策方式形成的网络讨论与二次整理。当前来源包括研究 Skill 和与邵艾伦的访谈文字稿索引。",
   "source_ids": [
     "sunge-skill",
     "sunxue-skill",
     "sun-huang-bo-yi",
-    "sun-alan-interview"
+    "sun-alan-interview",
+    "buildbeyond-sunxue-20261009",
+    "bidclub-sun-alan-20261009"
   ],
   "claims": [
     {
-      "text": "�����.skill����������Ϸ�Ϊ˼ά��д���;���������������ά���ߵķ�����ܡ�",
+      "text": "《孙割.skill》把人物材料分为思维、写作和决策三个面向，这是维护者的分析框架。",
       "source_ids": [
         "sunge-skill"
       ],
       "attribution": "secondary_summary"
     },
     {
-      "text": "����Ʊ����ۡ�����Դ�ͳɹ������ĽǶȸ�����ѧ�����ܽ���ֱ�ӹ�Ϊԭ���ߵ�ͳһ���塣",
+      "text": "《孙黄薄抑论》从资源和成果归属的角度概括孙学，不能将此直接归为原作者的统一定义。",
       "source_ids": [
         "sun-huang-bo-yi"
+      ],
+      "attribution": "secondary_summary"
+    },
+    {
+      "text": "BUILD BEYOND 的听后感把孙学理解为有限资源的配置与认知更新，并明确成功经验不能直接推广到所有人。",
+      "source_ids": [
+        "buildbeyond-sunxue-20261009"
       ],
       "attribution": "secondary_summary"
     }
   ],
   "open_questions": [
-    "����������˹���ԭ������Ʒ��Դ��",
-    "����ԭ��������������ģ�� Skill���������ۺͺ���������ϡ�"
+    "补充孙宇晨本人公开原帖与作品来源。",
+    "区分原作者自述、人物模仿 Skill、社区评论和后续理论组合。"
   ],
-  "updated_at": "2026-10-13"
+  "updated_at": "2026-10-14"
 }

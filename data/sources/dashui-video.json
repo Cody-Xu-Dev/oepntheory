@@ -1,14 +1,14 @@
 {
   "id": "dashui-video",
   "url": "https://www.bilibili.com/video/BV1a9p36LEKD/",
-  "title": "��ˮ������ʲô������ָ�ϡ�",
+  "title": "大水理论是什么梗【梗指南】",
   "author": null,
   "kind": "secondary",
   "published_at": null,
   "discovered_at": "2026-10-13",
   "checked_at": "2026-10-13T15:59:55+08:00",
   "verification": "unavailable",
-  "summary": "����������ع�������Ƶ��ֱ�Ӷ�ȡʧ�ܣ�����Ϊ����˶�������",
-  "limitation": "δȡ����Ƶ���ġ��ɿ�������Ϣ��ԭʼ���ڣ��������佡���������Դ��",
+  "summary": "搜索发现相关梗解释视频，直接读取失败；保留为补充核读线索。",
+  "limitation": "未取得视频正文、可靠作者信息和原始日期，不概括其健康建议或起源。",
   "supersedes": null
 }

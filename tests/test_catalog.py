@@ -32,8 +32,8 @@ class CatalogTests(unittest.TestCase):
             run["event_ids"] = []
         validate(self.data)
         page = render(self.data)["daily/2026/2026-10-13.md"]
-        self.assertIn("δ�Ǽ���������", page)
-        self.assertIn("������¼", page)
+        self.assertIn("未登记内容增量", page)
+        self.assertIn("检索记录", page)
 
     def test_duplicate_snapshot_is_rejected(self):
         duplicate = copy.deepcopy(next(iter(self.data["sources"].values())))

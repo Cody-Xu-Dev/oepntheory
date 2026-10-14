@@ -1,0 +1,14 @@
+{
+  "id": "theoryera-index",
+  "url": "https://theoryera.com/",
+  "title": "TheoryEra · 大理论时代",
+  "author": "未知",
+  "kind": "secondary",
+  "published_at": null,
+  "discovered_at": "2026-10-14",
+  "checked_at": "2026-10-14T09:06:00+08:00",
+  "verification": "metadata_only",
+  "summary": "发现同类中文互联网理论百科站点，直接读取仅返回页面占位，正文未取得。",
+  "limitation": "搜索索引内容不能代替站点核读；暂作待检验资料合集线索，不采信其条目。",
+  "supersedes": null
+}
